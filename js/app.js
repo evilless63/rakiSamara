@@ -22,7 +22,6 @@ $(document).ready(function(){
 
       var name = $("#itemScheduleFormName").val();
       var phone = $("#itemScheduleFormPhone").val();
-
         $.ajax({
             type: "POST",
             url: "../inc/mailZayavka.php",
