@@ -1,0 +1,617 @@
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !important; 
+}
+
+h1, h2, h3, .header, .subHeader {
+	font-family: "FranklinGothic-Demi";
+}
+
+.containerFluid {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.containerFixed {
+	width: 980px;
+	margin: 0 auto;
+}
+
+h1, .header {
+	font-size: 25.4px;
+	color: #312c37;
+	font-weight: bold;
+	margin: 15px 0 20px 0;
+}
+
+h2, .subHeader {
+	font-size: 20.32px;
+	color: #312c37;
+	font-weight: bold;
+}
+
+h3, .infoHeader {
+	font-size: 15.24px;
+	color: #312c37;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.breadcrumbs {
+    margin-top: 20px;
+}
+.breadcrumbs>a {
+	padding-right: 3px;
+	color: #000;
+}
+
+/*HEADER*/
+
+.headerWrapper {
+	background: #504b55;
+}
+
+.headerBlock {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul#mainmenu {
+	width: 620px;
+	display: flex;
+	justify-content: space-between;
+}
+
+ul#mainmenu > li > a {
+	font-size: 15.24px;
+	color: #afafaf;
+    padding: 30px 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: block;
+}
+
+.phone {
+	font-family: "Bookman Old Style";
+	font-size: 20.32px;
+	position: relative;
+	color: #d15a4e;
+    padding: 30px 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: block;
+}
+
+.phone:before {
+	content: url(../images/frontend/headerPhone.png);
+	position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+/*HEADER END*/
+/***********************************/
+/*FOOTER*/
+
+.footerWrapper {
+	background: #39343f;
+}
+
+.footerBlock {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footermenu {
+	width: 33.3333333333%;
+	margin: 20px 0;
+}
+
+.footermenu > .menuHeader {
+	color: #fff;
+	font-size: 20.32px;
+	margin-bottom: 21px;
+}
+
+.footermenu > ul > li > a {
+	color: #c8c7c9;
+	font-size: 20.32px;
+	display: block;
+	padding: 1px 0;
+}
+
+/*FOOTER END*/
+
+.mainBanner {
+	width: 100%;
+	margin: 0 auto;
+	height: 460px;
+	background-image: url(../images/frontend/banner.jpg);
+	background-position: top center;
+}
+
+
+/*BUY RAKI IN DA SAMARA*/
+
+.buyRakiContainer {
+	display: flex;
+	justify-content: space-around;
+}
+
+.buyRakiHeader {
+	text-align: center;
+	text-transform: uppercase;
+}	
+
+.buyRakiContainerBlock {
+	width: 296px;
+	text-align: center;
+}
+
+.buttonWrapper {
+	margin: 30px 0 70px 0;
+}
+
+.button {
+    background-color: #312c37;
+    font-family: "FranklinGothic-Demi";
+    border: double #fff;
+    font-size: 20.32px;
+    padding: 3px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #d15a4e;
+}
+
+
+
+.buyRakiContainerBlockInfo {
+    border: 2px solid #e0e0e1;
+	min-height: 335px;
+}
+
+.buyRakiContainerBlockImage {
+    margin: 0 auto;
+    min-height: 190px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.buyRakiContainerBlockPrice {
+	position: absolute;
+	background-color: #312c37;
+    font-family: "FranklinGothic-Demi";
+    font-size: 20.32px;
+    padding: 10px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    top:0;
+    left:0;
+}
+
+.buyRakiContainerBlockHeader {
+    text-align: center;
+    color: #312c37;
+    background-color: #f3d6d3;
+    padding: 8px 0;
+    font-size: 20.32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.buyRakiContainerBlockDescription {
+    text-align: center;
+    color: #a6a5a8;
+    /* background-color: #a6a5a8; */
+    padding: 8px 0;
+    font-size: 20.32px;
+    line-height: 24px;
+    padding: 10px 30px;
+}
+
+/*BUY RAKI IN DA SAMARA END*/
+
+/*ACTION*/
+
+.actionBanner {
+	width: 100%;
+	margin: 0 auto;
+	height: 338px;
+	background-image: url(../images/frontend/action.jpg);
+	background-position: top center;
+}
+
+/*ACTION END*/
+
+/*DOSTAVKA*/
+
+.dostavkaHeader {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.dostavkaWrapper {
+	background: url(../images/frontend/dostavkaBackground.jpg) top center;
+	position: relative;
+	display: block;
+	height: 448px;
+}
+
+.dostavkaText {
+    text-align: left;
+    color: #8c8a8e;
+    font-size: 20.32px;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 110px;
+}
+
+/*DOSTAVKA END*/
+
+/*ZAPOLNIT ZAYAVKU*/
+
+.zayavkaWrapper {
+	background: url(../images/frontend/zayavkaFon.png) top center;
+	position: relative;
+	display: block;
+	height: 201px;
+}
+
+.zayavkaContainerWrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.zayavkaContainer {
+	width: 46%;
+	color: #fff;
+	text-align: center;
+}
+
+.zayavkaContainerForm {
+	width: 48%;
+}
+
+.zayavkaHeader {
+	font-family: "FranklinGothic-Demi";
+	font-size: 25.4px;
+	color: #ffffff;
+	font-weight: bold;
+	margin: 15px 0 20px 0;
+	text-transform: uppercase;
+}
+
+.zayavkaForm {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.zayavkaForm>input[type='text'] {
+	font-size: 20.32px;
+	color: #312c37;
+	background-color: #fff;
+	width: 190px;
+	padding: 5px 0 5px 10px;
+}
+
+.zayavkaContainer > p {
+	font-size: 18.32px;
+	display: block;
+	position: relative;
+	color: #fff;
+
+}
+
+.zayavkaPhone:before {
+	content: url(../images/frontend/phoneZakaz.png);
+}
+
+.zayavkaAdress:before {
+	content: url(../images/frontend/adresZakaz.png);
+}
+
+.zayavkaMail:before {
+	content: url(../images/frontend/emailZakaz.png);
+}
+
+.zayavkaPhone:before, .zayavkaAdress:before, .zayavkaMail:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.zayavkaPhone, .zayavkaAdress, .zayavkaMail {
+	padding: 11px 0 11px 50px;
+	text-align: left;
+
+}
+
+.submitZayavka {
+
+}
+
+
+
+/*ZAPOLNIT ZAYAVKU END*/
+
+/*RECEPTY*/
+
+.bestReceptsMain {
+	margin: 30px auto 50px;
+}
+
+.slick-slide img {
+	margin: 0 auto;
+}
+
+.slick-prev:before {
+    content: url(../images/frontend/receptySliderLeftPassive.jpg) !important;
+}
+
+.slick-prev:hover:before {
+    content: url(../images/frontend/receptySliderLeftActive.jpg) !important;
+}
+
+.slick-next:before {
+    content: url(../images/frontend/receptySliderRightPassive.jpg) !important;
+}
+
+.slick-next:hover:before {
+    content: url(../images/frontend/receptySliderRightActive.jpg) !important;
+}
+
+.slick-prev:before, .slick-next:before {
+	opacity: 1 !important;
+}
+
+.slick-prev, .slick-next {
+	top: 85px !important;
+}
+
+.imageHover {
+	-webkit-filter: brightness(50%); 
+}
+
+.bestReceptsLink {
+	position: relative;
+	display: block;
+}
+
+.bestReceptsDesc {
+	display: none;
+	position: absolute;
+	font-family: "FranklinGothic-Demi";
+	font-size: 25.4px;
+	color: #ffffff;
+	font-weight: bold;
+	margin: 15px 0 20px 0;
+	text-transform: uppercase;
+    top: 40px;
+    left: 75px;
+	text-align: center;
+}
+
+
+/*RECEPTY END*/
+
+
+/*USEFUL*/
+
+.usefulWrapper {
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.usefulPar {
+	font-size: 20.32px;
+	display: block;
+	position: relative;
+	color: #8c8a8e;
+	padding-left: 20px;
+    line-height: 22.5px;	
+}
+
+/*USEFUL END*/
+
+
+
+/*RECREPTY PAGE*/
+
+.receptsParHeader {
+	margin: 10px 10px;
+    padding-top: 7px;
+}
+
+.peceptTextWrapper {
+	margin-bottom: 400px;
+}
+
+.receptImg {
+    float: left;
+    padding: 0 20px 10px 0;}
+
+.receptsPar, ul.receptPar {
+	font-size: 15.4px;
+	color: #8c8a8e;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.receptsParHeader span{
+    background: #c85e52;
+    text-transform: uppercase;
+    font-family: "FranklinGothic-Demi";
+    font-size: 15.4px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px 10px;
+    margin: 0px 0 8px 0;
+    width: 180px;
+}
+
+/*RECEPTY PAGE END*/
+
+
+/*OTZYVY*/
+
+.reviewHeader {
+	display: flex;
+	justify-content: space-between;
+	background: #f3d6d3;
+	border-bottom: solid 2px #d15a4e; 
+}
+
+.reviewName, .reviewDate {
+	font-family: "FranklinGothic-Demi";
+	font-size: 20.32px;
+	color: #312c37;
+	font-weight: bold;
+	padding: 10px 10px;
+	text-transform: uppercase;
+}
+
+.reviewDesc {
+	padding: 20px 20px 40px 10px;
+}
+
+.reviewDesc > p {
+	font-size: 20.32px;
+	color: #8c8a8e;
+	line-height: 25px;
+	text-align: left;
+}
+
+/**OTZYVY END/
+
+
+/*AKCII*/
+
+.actionWrapper {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+.actionBlock {
+	width: 293px;
+}
+
+.actionHeader {
+	font-family: "FranklinGothic-Demi";
+	font-size: 15.24px;
+	color: #fff;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	text-align: center;
+	background: #c85e52;
+}
+
+.actionDesc {
+	border-bottom: 2px solid #cdcccf;
+	border-left: 2px solid #cdcccf;
+	border-right: 2px solid #cdcccf;
+	text-align: center;
+}
+
+.actionPar {
+	color: #635f67;
+	font-size: 15.24px;
+	line-height: 19px;
+	padding: 7px 0;
+}
+
+/*AKCII END*/
+
+/*KONTAKTY*/
+
+.contactsWrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contactsBlock {
+	width: 30%;
+	text-align: center;
+}
+
+.contactsPar {
+	text-align: center;
+	font-size: 20.32px;
+	color: #000;
+	line-height: 30px;
+}
+
+.mapContacts {
+	margin: 40px auto;
+	width: 920px;
+}
+
+/*KONTACTY END*/
+
+/*DOSTAVKA*/
+
+.subHeaderDostavka {
+	background: #c85e52;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px 0 10px 10px;
+}
+
+.dostavkaBlock {
+	font-size: 15.24px;
+	padding: 20px 10px;
+	border-bottom: 1px solid #cdcccf;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dostavkaBlock > span {
+	color: #39343f;
+}
+
+/*DOSTAVKA END*/
+
+
+/*CATALOG*/
+
+ul.tabsContainer {
+	display: flex;
+	justify-content: space-around;
+}
+
+ul.tabsContainer > li {
+
+    width: 33.3333333333%;
+}
+
+ul.tabsContainer > li > a {
+	font-family: "FranklinGothic-Demi";
+	display: block;
+	font-size: 25.4px;
+	color: #312c37;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 15px 0 20px 0;
+	background: #f3d6d3;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+ul.tabsContainer > li > a:hover, ul.tabsContainer > li > a.active {
+	color: #fff;
+	background: #d15a4e;
+}
+
+
+
+
+/*CATALOG END*/
